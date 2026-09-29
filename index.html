@@ -122,6 +122,58 @@
   footer .wrap{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px; font-size:0.88rem; }
   footer .brand{ color:#fff; }
   footer .brand svg circle, footer .brand svg path { stroke:#fff; }
+
+    /* =================================
+   LAUNDRY WEBSITE - CRAFTED BY KASITU
+================================= */
+
+.crafted-by {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #a0a0a0;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.crafted-by a {
+    display: inline-block;
+    color: #ff6b00;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 4px;
+    transition: all 0.3s ease;
+}
+
+.crafted-by a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 107, 0, 0.6);
+}
+
+/* Subtle orange accent */
+.crafted-by::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #ff6b00;
+    margin: 0 auto 12px;
+    border-radius: 2px;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    .crafted-by {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .crafted-by a {
+        letter-spacing: 0.7px;
+    }
+}
+  
 </style>
 </head>
 <body>
@@ -233,18 +285,18 @@
     <div class="service-groups">
       <div class="service-group">
         <h3>Wash &amp; Fold</h3>
-        <div class="service-row"><div class="name">Standard wash &amp; fold<small>Per kg, 2-day turnaround</small></div><div class="price">$3.50/kg</div></div>
-        <div class="service-row"><div class="name">Same-day express<small>Per kg, order before 9am</small></div><div class="price">$5.50/kg</div></div>
-        <div class="service-row"><div class="name">Bedding &amp; duvets<small>Per item</small></div><div class="price">from $18</div></div>
-        <div class="service-row"><div class="name">Minimum order</div><div class="price">$20</div></div>
+        <div class="service-row"><div class="name">Standard wash &amp; fold<small>Per kg, 2-day turnaround</small></div><div class="price">R103.50/kg</div></div>
+        <div class="service-row"><div class="name">Same-day express<small>Per kg, order before 9am</small></div><div class="price">R150.50/kg</div></div>
+        <div class="service-row"><div class="name">Bedding &amp; duvets<small>Per item</small></div><div class="price">from R180</div></div>
+        <div class="service-row"><div class="name">Minimum order</div><div class="price">R200</div></div>
       </div>
       <div class="service-group">
         <h3>Dry Cleaning</h3>
-        <div class="service-row"><div class="name">Shirt</div><div class="price">$5.50</div></div>
-        <div class="service-row"><div class="name">Trousers</div><div class="price">$7.50</div></div>
-        <div class="service-row"><div class="name">Suit (2-piece)</div><div class="price">$16</div></div>
-        <div class="service-row"><div class="name">Dress</div><div class="price">$12</div></div>
-        <div class="service-row"><div class="name">Coat / Jacket</div><div class="price">from $14</div></div>
+        <div class="service-row"><div class="name">Shirt</div><div class="price">R50.50</div></div>
+        <div class="service-row"><div class="name">Trousers</div><div class="price">R97.50</div></div>
+        <div class="service-row"><div class="name">Suit (2-piece)</div><div class="price">R216</div></div>
+        <div class="service-row"><div class="name">Dress</div><div class="price">R120</div></div>
+        <div class="service-row"><div class="name">Coat / Jacket</div><div class="price">from R94</div></div>
       </div>
     </div>
     <p class="services-note">Prices shown are estimates in USD and can vary by fabric, size, and condition — confirmed at pickup.</p>
@@ -286,7 +338,7 @@
   <div class="wrap">
     <div class="info-block"><b>Service area</b><span>Free pickup &amp; delivery within 8 miles</span></div>
     <div class="info-block"><b>Hours</b><span>Mon–Sat, 7am–8pm · Closed Sundays</span></div>
-    <div class="info-block"><b>Phone</b><span><a href="tel:+15550172834">(555) 017-2834</a></span></div>
+    <div class="info-block"><b>Phone</b><span><a href="tel:+15550172834">(079) 017-2834</a></span></div>
   </div>
 </div>
 
@@ -334,9 +386,15 @@
 <footer>
   <div class="wrap">
     <div class="brand">Fresh &amp; Fold Laundry Co.</div>
-    <div>412 Riverside Ave · (555) 017-2834 · hello@freshandfold.com</div>
+    <div>412 Pretoria Ave · (079) 017-2834 · hello@freshandfold.com</div>
   </div>
 </footer>
 
+    <p class="crafted-by"> 
+  A Digital Experience by 
+  <a href="https://kasituwebs.co.za/" target="_blank" rel="noopener noreferrer">
+  KASITU Webs </a>
+</p>
+  
 </body>
 </html>
